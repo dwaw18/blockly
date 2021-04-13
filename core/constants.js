@@ -316,6 +316,7 @@ Blockly.TYPE_DROPDOWN = function(device, opt_handler) {
     case 'sensebox':
     case 'arduino':
     case 'nao':
+    case 'photon':
 	case 'nano33ble':
         return new Blockly.FieldDropdown([ [ Blockly.Msg.VARIABLES_TYPE_NUMBER, 'Number' ], [ Blockly.Msg.VARIABLES_TYPE_BOOLEAN, 'Boolean' ],
                 [ Blockly.Msg.VARIABLES_TYPE_STRING, 'String' ], [ Blockly.Msg.VARIABLES_TYPE_COLOUR, 'Colour' ],

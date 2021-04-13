@@ -29,6 +29,7 @@ require('../blocks/naoActions.js');
 require('../blocks/naoBrick.js');
 require('../blocks/naoColour.js');
 require('../blocks/naoSensors.js');
+require('../blocks/photonBrick.js');
 require('../blocks/procedures.js');
 require('../blocks/robBrick.js');
 require('../blocks/robColour.js');
